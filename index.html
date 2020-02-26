@@ -4,47 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vower</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div>
+        <!-- Landing Page area -->
+        <div class="container-fluid landing">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <a href="https://vower.org" class="navbar-brand">
+                    <img id="navbar-logo" src="https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5dc98f32673bd97502f806c6_Asset%202Icon.png" alt="Vower logo" class="icon img-responsive">
+                </a>
+                <a href="#form-section">
+                    <button class="sign-up">Sign Up</button>
+                </a>
+            </nav>
+            
+            <!-- Welcome -->
+            <div id="welcome-section" class="container">
+                <h2>Community Service Deserves A Louder Applause</h1>
+                <a href="#form-section">
+                    <button class="sign-up">Sign Up</button>
+                </a>
+            </div>
 
-        <!-- Navbar -->
-        <div class="navbar">
-            <img id="navbar-logo" src="" alt="Vower logo" class="icon">
-            <button class="sign-up">Sign Up</button>
+            <!-- to top button -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         </div>
-
-        <!-- Welcome -->
-        <div id="welcome-section" class="welcome-section">
-            <h1>Community Service Deserves A Louder Applause</h1>
-            <button class="sign-up">Sign Up</button>
-        </div>
-
-        <!-- Signup Form -->
-        <div id="form-section" class="form-section">
-            <img src="" alt="concert crowd">
-            <h2>Ready to Make a Difference in Your Community?</h2>
-            <div class="form-container">
-                <!-- <p class="sign-up">Sign up below</p> -->
-                <label id="email-label" for="email">Sign up below</label><br>
-                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required> <br>
-                <button type="submit" id="submit" class="submit-button">
-                    Submit
-                </button>
-
+        <!-- Signup Area -->
+        <div class="signup">
+            <!-- Signup Form -->
+            <div id="form-section" class="container">
+                <img class="img-responsive center-block" src="https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5ddc3e5bcae5d80eb7490c31_group-of-people-watching-band-concert-photo-1047940-p-2000.jpeg" alt="concert crowd">
+                <h2>Ready to Make a Difference in Your Community?</h2>
+                <div class="form-container">
+                    <!-- <p class="sign-up">Sign up below</p> -->
+                    <label id="email-label" for="email">Sign up below</label><br>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required> <br>
+                    <button type="submit" id="submit" class="submit-button">
+                        Submit
+                    </button>
+            
+                </div>
             </div>
         </div>
+        <!-- Footer -->
+        <div class="footer">
+            <p>Wanna hear our song of the week?</p>
+            <img id="footer-logo" src="vowericon.png" alt="Vower logo" class="icon img-responsive">
+            <p> Vower 2020. All Rights Reserved</p>
+        </div>
     </div>
-
-    <!-- Footer -->
-    <div class="footer">
-        <p>Wanna hear our song of the week?</p>
-        <img id="footer logo" src="" alt="Vower logo" class="icon">
-        <p> Vower 2020. All Rights Reserved</p>
-    </div>
-
 </body>
 </html>
