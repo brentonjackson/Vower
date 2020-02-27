@@ -6,20 +6,29 @@
 /* -----------------------------------
 	 			Body 
 --------------------------------------*/
-html {
+html, body {
 	height: 100%;
 	scroll-behavior: smooth;
+	width: 100%;
+	color: #fff;
+	min-height: 100%;
+	overflow-x: hidden; 
 }
 
 body {
-	color: #fff;
-	width: 100%;
-	min-height: 100%;
+ font-family: 'Lora','Cardo', serif;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+ font-family: 'Montserrat','Oswald', sans-serif;
+ font-weight: 300;
+ text-transform: uppercase;
 }
 
 /* -----------------------------------
 	 		Global Elements 
 --------------------------------------*/
+
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -38,7 +47,7 @@ body {
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #EEE; /* Add a dark-grey background on hover */
 }
 
 img {
@@ -48,8 +57,8 @@ img {
 /* buttons */
 
 .sign-up {
-	background-color: rgb(229,190,31);
-	width: 90px;
+	/* background-color: rgb(229,190,31); */
+	background-color:  #ffce00;
 }
 .submit-button {
 	background-color: rgb(44,189,189);
@@ -61,12 +70,26 @@ img {
 
 .navbar {
 	background-color: #FFFFFF00;
+	min-width: 100%;
+	/* margin: auto 50px; */
 }
 
 #navbar-logo {
 	width: 66px;
 }
 
+/* For Desktop users */
+@media (min-width: 490px) {
+	.navbar {
+		padding-left: 80px;
+		padding-right: 80px;
+		/* font-size: 100px; */
+	}
+	.btn {
+		font-size: 20px;
+		color: black;
+	}
+}
 
 /* -----------------------------------
 	 			Landing 
@@ -89,7 +112,7 @@ img {
 
 #welcome-section {
 	padding-left: 15px;
-	margin: 50px;
+	margin: 50px 0px;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -106,30 +129,18 @@ div h2 {
 	padding: 20px 0;
 }
 
+/* For Desktop users  */
 @media (min-width: 490px) {
 	#welcome-section {
 		/* padding-left: 15px; */
 		margin: 100px 100px 100px 50px;
-		display: flex;
-		-webkit-flex-direction: column;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-		/* -webkit-align-items: left; */
-		        align-items: left;
-		-webkit-justify-content: center;
-		        justify-content: center;
-		-webkit-align-self: center;
-		        align-self: center;
 		/* height: 50%; */
 		width: 39vw;
 		/* margin-left: 50px; */
 	}
-
 	div h2 {
-		padding: 20px 0;
 		font-size: 45px;
 	}
-
 }
 
 
@@ -139,7 +150,7 @@ div h2 {
 .signup {
 	/* background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5ddc3e5bcae5d80eb7490c31_group-of-people-watching-band-concert-photo-1047940-p-2000.jpeg'); */
 	background-image: radial-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5ddc3e5bcae5d80eb7490c31_group-of-people-watching-band-concert-photo-1047940-p-2000.jpeg');
-
+	/* background-color: #484D5C; */
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
@@ -165,14 +176,15 @@ div h2 {
 }
 
 #form-section h2 {
-	color: rgb(44,189,189);
+	/* color: rgb(44,189,189); */
+	color: #ffce00;
 }
 
 /* -----------------------------------
 	 			Footer 
 --------------------------------------*/
 .footer {
-	background: #000;
+	background: #010101;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
