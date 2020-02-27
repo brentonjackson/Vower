@@ -7,6 +7,7 @@ https://brentonjackson.github.io/vower/
 Original:
 
 <img src="original.gif" width=400px><br>
+<img src="redesign.gif" width=400px><br>
 
 
 ## Built With
