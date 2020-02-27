@@ -144,6 +144,11 @@ div h2 {
 	}
 }
 
+@media (min-width: 900px) {
+	#welcome-section {
+		margin: 100px 100px 100px 250px;
+	}
+}
 
 /* -----------------------------------
 	 			Signup 
