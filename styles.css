@@ -187,8 +187,16 @@ div h2 {
 }
 
 #form-section label {
-	font-size: x-large;
+		font-size: large;
+	}
+
+@media (min-width: 900px) {
+	#form-section label {
+		font-size: x-large;
+	}
 }
+
+
 
 /* -----------------------------------
 	 			Footer
