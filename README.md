@@ -13,6 +13,7 @@ Original:
 
 * HTML
 * CSS
+* JavaScript
 
 
 
