@@ -190,6 +190,11 @@ div h2 {
 		font-size: large;
 	}
 
+@media (min-width: 330px) and (max-width: 415px) {
+	.form-header {
+		width: 70%;
+	}
+}
 @media (min-width: 900px) {
 	#form-section label {
 		font-size: x-large;
