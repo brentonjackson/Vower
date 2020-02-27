@@ -6,10 +6,7 @@ https://brentonjackson.github.io/vower/
 
 Original:
 
-<img src="original.gif" width=400px>
-
-
-
+<img src="original.gif" width=400px><br>
 
 Redesign:
 
