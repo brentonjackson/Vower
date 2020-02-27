@@ -177,7 +177,7 @@ div h2 {
 
 #form-section h2 {
 	/* color: rgb(44,189,189); */
-	color: #ffce00;
+	color: var(--light);
 }
 
 /* -----------------------------------
