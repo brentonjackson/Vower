@@ -6,7 +6,7 @@ https://brentonjackson.github.io/vower/
 
 Original:
 
-http://g.recordit.co/xOuNyXRVr1.gif
+<img src="http://g.recordit.co/xOuNyXRVr1.gif" width=200><br>
 
 
 ## Built With
