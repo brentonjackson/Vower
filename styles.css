@@ -4,7 +4,7 @@
 }
 
 /* -----------------------------------
-	 			Body 
+	 			Body
 --------------------------------------*/
 html, body {
 	height: 100%;
@@ -12,7 +12,7 @@ html, body {
 	width: 100%;
 	color: #fff;
 	min-height: 100%;
-	overflow-x: hidden; 
+	overflow-x: hidden;
 }
 
 body {
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6, button {
 }
 
 /* -----------------------------------
-	 		Global Elements 
+	 		Global Elements
 --------------------------------------*/
 
 
@@ -65,7 +65,7 @@ img {
 	background-color: rgb(44,189,189);
 }
 /* -----------------------------------
-	 			Navbar 
+	 			Navbar
 --------------------------------------*/
 /* Make navbar sticky to top of page */
 
@@ -93,11 +93,11 @@ img {
 }
 
 /* -----------------------------------
-	 			Landing 
+	 			Landing
 --------------------------------------*/
 
 .landing {
-	
+
 	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5dc98f32673bd94867f806ce_nicholas-green-nPz8akkUmDI-unsplash%20(1).jpg');
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
@@ -151,7 +151,7 @@ div h2 {
 }
 
 /* -----------------------------------
-	 			Signup 
+	 			Signup
 --------------------------------------*/
 .signup {
 	/* background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5ddc3e5bcae5d80eb7490c31_group-of-people-watching-band-concert-photo-1047940-p-2000.jpeg'); */
@@ -186,8 +186,12 @@ div h2 {
 	color: var(--light);
 }
 
+#form-section label {
+	font-size: x-large;
+}
+
 /* -----------------------------------
-	 			Footer 
+	 			Footer
 --------------------------------------*/
 .footer {
 	background: #010101;
@@ -198,10 +202,10 @@ div h2 {
 	-webkit-align-items: center;
 	        align-items: center;
 	text-align: center;
-	
+
 /* 	bottom: 0;
 	top:0; */
-	
+
 }
 #footer-logo {
 	/* width: 40px; */
