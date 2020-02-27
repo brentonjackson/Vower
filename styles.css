@@ -80,32 +80,56 @@ img {
 	        background-size: cover;
 	background-position: center;
 	height: 100vh;
-	display: flex;
+	/* display: flex; */
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-/* 	-webkit-align-items: center;
-	        align-items: center; */
+
 }
 
 #welcome-section {
-	padding: 50px;
-	/* margin: 100px auto; */
+	padding-left: 15px;
+	margin: 50px;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	/* -webkit-align-items: left; */
+	-webkit-align-items: left;
 	        align-items: left;
 	-webkit-justify-content: center;
 	        justify-content: center;
 	-webkit-align-self: center;
 	        align-self: center;
-	/* height: 50%; */
 }
 
 div h2 {
 	padding: 20px 0;
+}
+
+@media (min-width: 490px) {
+	#welcome-section {
+		/* padding-left: 15px; */
+		margin: 100px 100px 100px 50px;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		/* -webkit-align-items: left; */
+		        align-items: left;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-align-self: center;
+		        align-self: center;
+		/* height: 50%; */
+		width: 39vw;
+		/* margin-left: 50px; */
+	}
+
+	div h2 {
+		padding: 20px 0;
+		font-size: 45px;
+	}
+
 }
 
 
@@ -113,7 +137,9 @@ div h2 {
 	 			Signup 
 --------------------------------------*/
 .signup {
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5ddc3e5bcae5d80eb7490c31_group-of-people-watching-band-concert-photo-1047940-p-2000.jpeg');
+	/* background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5ddc3e5bcae5d80eb7490c31_group-of-people-watching-band-concert-photo-1047940-p-2000.jpeg'); */
+	background-image: radial-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5ddc3e5bcae5d80eb7490c31_group-of-people-watching-band-concert-photo-1047940-p-2000.jpeg');
+
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
@@ -136,6 +162,10 @@ div h2 {
 	        flex-direction: column;
 	-webkit-align-content: center;
 	        align-content: center;
+}
+
+#form-section h2 {
+	color: rgb(44,189,189);
 }
 
 /* -----------------------------------
