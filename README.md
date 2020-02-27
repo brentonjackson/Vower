@@ -7,8 +7,8 @@ https://brentonjackson.github.io/vower/
 Original:
 
 <img src="original.gif" width=400px>
-/n
-/n
+</n>
+</n>
 Redesign:
 
 <img src="redesign.gif" width=400px><br>
