@@ -11,7 +11,7 @@ Original:
 \
 \
 Redesign:
-\
+<br>\
 <img src="redesign.gif" width=400px><br>
 
 
