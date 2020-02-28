@@ -36,3 +36,45 @@ function topFunction() {
 
 // Add click functionality to button
 mybutton.addEventListener("click", topFunction);
+
+
+// Pulse on hover for signup button, only on desktops!
+
+// Create media query
+const mq = window.matchMedia( "(min-width: 768px)" ); 
+
+// Get button
+let signupButton = document.getElementById('signup');
+let submitButton = document.getElementById('submit');
+
+if (mq) {
+	signupButton.addEventListener('mouseenter', makePulse);
+	signupButton.addEventListener('mouseleave', stopPulse);
+	submitButton.addEventListener('mouseenter', makePulse);
+	submitButton.addEventListener('mouseleave', stopPulse);
+} else {
+	console.log("not showing pulse");
+}
+
+
+function makePulse() {
+	signupButton.classList.add('animated');
+	signupButton.classList.add('pulse');
+	signupButton.classList.add('infinite');
+	submitButton.classList.add('animated');
+	submitButton.classList.add('pulse');
+	submitButton.classList.add('infinite');	
+}
+
+function stopPulse() {
+	signupButton.classList.remove('animated');
+	signupButton.classList.remove('pulse');
+	signupButton.classList.remove('infinite');	
+	submitButton.classList.remove('animated');
+	submitButton.classList.remove('pulse');
+	submitButton.classList.remove('infinite');
+	console.log('working');
+}
+
+
+

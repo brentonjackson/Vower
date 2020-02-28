@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <!--   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="https://kit.fontawesome.com/5c5f192669.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
@@ -24,13 +25,13 @@
                     <img id="navbar-logo" src="https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5dc98f32673bd97502f806c6_Asset%202Icon.png" alt="Vower logo" class="icon img-responsive">
                 </a>
                 <a href="#form-section">
-                    <button class="sign-up btn shadow-sm font-weight-bold">Sign Up</button>
+                    <button id="signup" class="ripple sign-up btn shadow-sm font-weight-bold">Sign Up</button>
                 </a>
             </nav>
 
             <!-- Welcome -->
             <div id="welcome-section" class="container">
-                <h2>Community Service Deserves A Louder Applause</h2>
+                <h2 class="animated fadeIn delay-2s">Community Service Deserves A Louder Applause</h2>
                 <!-- <a href="#form-section" class="sign-up btn font-weight-bold">
                     Sign Up
                 </a> -->
@@ -38,7 +39,7 @@
 
             <!-- to top button -->
             <!-- Changed from button to fa icon -->
-            <i id="myBtn" class="fas fa-arrow-up"></i>
+            <i id="myBtn" class="ripple fas fa-arrow-up"></i>
             <!-- <button id="myBtn" title="Go to top">Top</button> -->
         </div>
         <!-- Signup Area -->
@@ -53,7 +54,7 @@
                     <form id="email-form" name="email-form" data-name="Email Form" action="https://vower.us3.list-manage.com/subscribe/post?u=3ef34fd7eb5abb846ce407a33&amp;amp;id=a1efabe96e" method="post">
                         <label id="email-label" for="email">Sign up for our mailing list below!</label><br>
                         <input type="email" name="email" id="email" data-name="Email" class="form-control" placeholder="Enter your Email" required> <br>
-                        <button type="submit" id="submit" value="Submit" data-wait="Please wait..." class="submit-button btn font-weight-bold">
+                        <button type="submit" id="submit" value="Submit" data-wait="Please wait..." class="ripple submit-button btn font-weight-bold">
                             Submit
                         </button>
                     </form>

@@ -71,6 +71,32 @@ img {
 .submit-button {
 	background-color: rgb(44,189,189);
 }
+
+@media screen and (max-width: 768px) {
+	/* Ripple effect */
+	.ripple {
+	  background-position: center;
+	  transition: background 1s;
+	}
+	#submit:hover {
+	  background: #3ED0CD radial-gradient(circle, transparent 1%, #3ED0CD 1%) center/15000%;
+	}
+	#submit:active {
+	  background-color: #84E0DB;
+	  background-size: 0;
+	  transition: background 0s;
+	}
+	#signup:hover {
+	  background: #FFD428 radial-gradient(circle, transparent 1%, #FFD428 1%) center/15000%;
+	}
+	#signup:active {
+	  background-color: #FDECAA;
+	  background-size: 0;
+	  transition: background 0s;
+	}
+}
+
+
 /* -----------------------------------
 	 			Navbar
 --------------------------------------*/
@@ -105,7 +131,7 @@ img {
 
 .landing {
 
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url('https://uploads-ssl.webflow.com/5dc98f32673bd931e6f806c0/5dc98f32673bd94867f806ce_nicholas-green-nPz8akkUmDI-unsplash%20(1).jpg');
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url('landingbackground.png');
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
