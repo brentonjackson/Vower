@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, button {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   /* background-color: white; Set a background color */
-  opacity: .;
+  opacity: .6;
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
