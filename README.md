@@ -10,7 +10,7 @@ Original:
 
 Redesign:
 
-<img src="redesign.gif" width=400px><img src="http://g.recordit.co/bVkXiFqAq7.gif"  height=400px><br>
+<img src="redesign.gif" width=400px><img src="http://g.recordit.co/bVkXiFqAq7.gif"  height=150px><br>
 
 
 ## Built With
