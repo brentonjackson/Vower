@@ -4,6 +4,8 @@ Landing page redesign for startup with mobile app
 
 https://brentonjackson.github.io/vower/
 
+<img src="vower-landing.png"><br>
+
 Original:
 
 <img src="original.gif" width=400px><br>
