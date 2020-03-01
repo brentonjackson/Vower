@@ -10,7 +10,7 @@ Original:
 
 Redesign:
 
-
+<img src="redesign.gif" width=400px><br>
 
 
 ## Built With
