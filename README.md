@@ -18,6 +18,7 @@ Redesign:
 * HTML
 * CSS
 * JavaScript
+* jQuery
 
 
 
