@@ -2,7 +2,7 @@
 
 Landing page redesign for startup with mobile app
 
-https://brentonjackson.github.io/vower/
+[Link](https://agitated-goldwasser-63c2e7.netlify.app/)
 
 Original:
 
