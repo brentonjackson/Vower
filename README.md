@@ -4,6 +4,8 @@ Landing page redesign for startup with mobile app
 
 [Link](https://agitated-goldwasser-63c2e7.netlify.app/)
 
+<img src="vower-landing.png"><br>
+
 Original:
 
 <img src="original.gif" width=400px><br>
